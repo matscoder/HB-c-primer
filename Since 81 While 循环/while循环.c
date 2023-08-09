@@ -133,7 +133,7 @@
 }*/
 
 //P90. switch语句  找到case 入口后，就会从上往下一直执行,除非break跳过;
-int main()
+/*int main()
 {
 	int val;
 	printf("请输入要进入的楼层:"), scanf("%d", &val);
@@ -155,8 +155,21 @@ int main()
 	}
 	return 0;
 	
-}
+}*/
 
 
 
 //break  中止循环//终止switch,跳出swich
+
+
+//P92Break的用法
+int main()
+{
+	int i;
+	for (i = 0; i < 3; i++)
+	{
+		if (1)
+			break;
+		printf("厉害!");
+	}
+}
